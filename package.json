@@ -1,0 +1,32 @@
+{
+	"name": "stylelint-config-firefoxic",
+	"version": "0.0.1",
+	"description": "Stylelint shareable config for the firefoxic code guide",
+	"main": ".stylelintrc",
+	"scripts": {
+		"test": "echo \"No tests yet\" && exit 0",
+		"preversion": "npm test",
+		"postversion": "npm publish",
+		"postpublish": "git push origin --all; git push origin --tags"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/firefoxic/stylelint-config-firefoxic.git"
+	},
+	"keywords": [
+		"style",
+		"lint",
+		"linter",
+		"stylelint",
+		"codeguide"
+	],
+	"author": {
+		"name": "Sergey Artemov",
+		"email": "firefoxic.dev@gmail.com"
+	},
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/firefoxic/stylelint-config-firefoxic/issues"
+	},
+	"homepage": "https://github.com/firefoxic/stylelint-config-firefoxic#readme"
+}
