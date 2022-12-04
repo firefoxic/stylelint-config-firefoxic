@@ -1,6 +1,6 @@
 {
 	"name": "stylelint-config-firefoxic",
-	"version": "0.0.1",
+	"version": "1.0.0",
 	"description": "Stylelint shareable config for the firefoxic code guide",
 	"main": ".stylelintrc",
 	"scripts": {
