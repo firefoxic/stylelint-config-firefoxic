@@ -6,6 +6,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [Unreleased]
 
+### Replaced
+
+- Deprecated rules with rules from the [stylelint-codeguide](https://github.com/firefoxic/stylelint-codeguide/) plugin.
+
 ## [v1.1.0] — 2023–03–24
 
 ### Added

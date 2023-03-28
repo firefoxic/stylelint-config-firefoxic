@@ -28,5 +28,8 @@
 	"bugs": {
 		"url": "https://github.com/firefoxic/stylelint-config-firefoxic/issues"
 	},
-	"homepage": "https://github.com/firefoxic/stylelint-config-firefoxic#readme"
+	"homepage": "https://github.com/firefoxic/stylelint-config-firefoxic#readme",
+	"dependencies": {
+		"stylelint-codeguide": "^0.1.0"
+	}
 }
