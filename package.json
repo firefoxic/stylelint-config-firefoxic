@@ -30,6 +30,6 @@
 	},
 	"homepage": "https://github.com/firefoxic/stylelint-config-firefoxic#readme",
 	"dependencies": {
-		"stylelint-codeguide": "^0.1.0"
+		"stylelint-codeguide": "^0.1.3"
 	}
 }
