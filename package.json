@@ -5,9 +5,7 @@
 	"main": ".stylelintrc",
 	"scripts": {
 		"test": "echo \"No tests yet\" && exit 0",
-		"preversion": "npm test",
-		"postversion": "npm publish",
-		"postpublish": "git push origin --all; git push origin --tags"
+		"release": "np"
 	},
 	"repository": {
 		"type": "git",
@@ -31,5 +29,8 @@
 	"homepage": "https://github.com/firefoxic/stylelint-config-firefoxic#readme",
 	"dependencies": {
 		"stylelint-codeguide": "^0.1.3"
+	},
+	"devDependencies": {
+		"np": "^7.6.4"
 	}
 }

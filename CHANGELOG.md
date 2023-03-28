@@ -6,9 +6,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [Unreleased]
 
+## [v1.2.1] — 2023–03–28
+
 ### Added
 
 - Badge for the vulnerabilities count.
+- `np` for easier package release.
 
 ### Updated
 
@@ -37,7 +40,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 - Basic project configuration
 - Basic config file for Stylelint
 
-[Unreleased]: https://github.com/firefoxic/gulp-stacksvg/compare/v1.2.0...HEAD
+[Unreleased]: https://github.com/firefoxic/gulp-stacksvg/compare/v1.2.1...HEAD
+[v1.2.1]: https://github.com/firefoxic/gulp-stacksvg/releases/tag/v1.2.1
 [v1.2.0]: https://github.com/firefoxic/gulp-stacksvg/releases/tag/v1.2.0
 [v1.1.0]: https://github.com/firefoxic/gulp-stacksvg/releases/tag/v1.1.0
 [v1.0.0]: https://github.com/firefoxic/gulp-stacksvg/releases/tag/v1.0.0
