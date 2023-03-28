@@ -2,6 +2,7 @@
 
 [![License: MIT][license-image]][license-url]
 [![NPM version][npm-image]][npm-url]
+[![Vulnerabilities count][vulnerabilities-image]][vulnerabilities-url]
 
 > The shareable config for Stylelint from [firefoxic](https://firefoxic.dev).
 
@@ -103,3 +104,6 @@ If your styles syntax is different from CSS, then install [the package of the�
 
 [license-url]: https://github.com/firefoxic/stylelint-config-firefoxic/blob/main/LICENSE
 [license-image]: https://img.shields.io/badge/License-MIT-limegreen.svg
+
+[vulnerabilities-url]: https://snyk.io/test/github/firefoxic/stylelint-config-firefoxic
+[vulnerabilities-image]: https://img.shields.io/snyk/vulnerabilities/npm/stylelint-config-firefoxic
