@@ -6,6 +6,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [Unreleased]
 
+## [v1.2.0] — 2023–03–28
+
+### Added
+
+- New rule to disallow unmatchable `An+B` selectors.
+
 ### Replaced
 
 - Deprecated rules with rules from the [stylelint-codeguide](https://github.com/firefoxic/stylelint-codeguide/) plugin.
@@ -23,6 +29,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 - Basic project configuration
 - Basic config file for Stylelint
 
-[Unreleased]: https://github.com/firefoxic/gulp-stacksvg/compare/v1.1.0...HEAD
+[Unreleased]: https://github.com/firefoxic/gulp-stacksvg/compare/v1.2.0...HEAD
+[v1.2.0]: https://github.com/firefoxic/gulp-stacksvg/releases/tag/v1.2.0
 [v1.1.0]: https://github.com/firefoxic/gulp-stacksvg/releases/tag/v1.1.0
 [v1.0.0]: https://github.com/firefoxic/gulp-stacksvg/releases/tag/v1.0.0

@@ -88,6 +88,7 @@
 				]
 			}
 		],
+		"selector-anb-no-unmatchable": true,
 		"selector-attribute-quotes": "always",
 		"selector-max-compound-selectors": 2,
 		"selector-max-id": 0,
