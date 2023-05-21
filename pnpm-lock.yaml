@@ -2,8 +2,8 @@ lockfileVersion: '6.0'
 
 dependencies:
   stylelint-codeguide:
-    specifier: ^0.1.3
-    version: 0.1.3(stylelint@15.6.2)
+    specifier: ^0.1.4
+    version: 0.1.4(stylelint@15.6.2)
 
 packages:
 
@@ -968,8 +968,8 @@ packages:
     resolution: {integrity: sha512-Dj1Okke1C3uKKwQcetra4jSuk0DqbzbYtXipzFlFMZtowbF1x7BKJwB9AayVMyFARvU8EDrZdcax4At/452cAg==}
     dev: false
 
-  /stylelint-codeguide@0.1.3(stylelint@15.6.2):
-    resolution: {integrity: sha512-DWh51znSnDP6v66LSjDyAeb7v7mk6EgylPonrHUWOGZ+WDsg6LcyDcNk9yncZmkqWPeLSBsQBeuVspTMrGbx5w==}
+  /stylelint-codeguide@0.1.4(stylelint@15.6.2):
+    resolution: {integrity: sha512-MYYRB5mTvi1cfl6/nvYJMomB+WwDQdc4AASgf8Oh2KwQr53PQrCLCydW7io6rfbJLJrmRn/e5y5prSMmpsTgyA==}
     peerDependencies:
       stylelint: ^14.16.1 || ^15.0.0
     dependencies:
