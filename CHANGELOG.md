@@ -1,3 +1,4 @@
+<!-- markdownlint-disable MD024 -->
 # Changelog
 
 All notable changes to this project will be documented in this file.
@@ -6,8 +7,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [Unreleased]
 
+## [v1.2.3] — 2023–05–22
+
 ### Changed
 
+- Package converted to ESM.
 - Replaced `npm` lockfile with `pnpm` lockfile.
 - Set up a chain of publishing scripts instead of using the `np` package.
 - Reorganized `package.json`.
@@ -50,7 +54,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 - Basic project configuration
 - Basic config file for Stylelint
 
-[Unreleased]: https://github.com/firefoxic/gulp-stacksvg/compare/v1.2.1...HEAD
+[Unreleased]: https://github.com/firefoxic/gulp-stacksvg/compare/v1.2.3...HEAD
+[v1.2.3]: https://github.com/firefoxic/gulp-stacksvg/releases/tag/v1.2.3
 [v1.2.1]: https://github.com/firefoxic/gulp-stacksvg/releases/tag/v1.2.1
 [v1.2.0]: https://github.com/firefoxic/gulp-stacksvg/releases/tag/v1.2.0
 [v1.1.0]: https://github.com/firefoxic/gulp-stacksvg/releases/tag/v1.1.0
