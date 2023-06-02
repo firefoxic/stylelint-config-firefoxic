@@ -33,6 +33,7 @@
 	"scripts": {
 		"prepare": "husky install",
 		"lint:spaces": "ec",
+		"lint:scripts": "eslint .",
 		"lint": "pnpm /^lint:/",
 		"pretest": "pnpm --silent lint",
 		"test": "node --test",
@@ -42,6 +43,7 @@
 	},
 	"devDependencies": {
 		"editorconfig-checker": "^5.1.1",
+		"eslint": "^8.44.0",
 		"husky": "^8.0.3"
 	}
 }
