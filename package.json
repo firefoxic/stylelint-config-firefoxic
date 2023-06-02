@@ -32,12 +32,16 @@
 	],
 	"scripts": {
 		"prepare": "husky install",
-		"test": "echo \"No tests yet\" && exit 0",
+		"lint:spaces": "ec",
+		"lint": "pnpm /^lint:/",
+		"pretest": "pnpm --silent lint",
+		"test": "node --test",
 		"preversion": "pnpm test",
 		"postversion": "pnpm publish",
 		"postpublish": "git push origin --all && git push origin --tags"
 	},
 	"devDependencies": {
+		"editorconfig-checker": "^5.1.1",
 		"husky": "^8.0.3"
 	}
 }

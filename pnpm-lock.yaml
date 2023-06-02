@@ -10,6 +10,9 @@ dependencies:
     version: 0.1.4(stylelint@15.6.2)
 
 devDependencies:
+  editorconfig-checker:
+    specifier: ^5.1.1
+    version: 5.1.1
   husky:
     specifier: ^8.0.3
     version: 8.0.3
@@ -286,6 +289,12 @@ packages:
     dependencies:
       path-type: 4.0.0
     dev: false
+
+  /editorconfig-checker@5.1.1:
+    resolution: {integrity: sha512-IBE7K48+6jLlhfmJ0TOTjogvO9Asw+4B8CoKn71KtZ8Qrvc7/WgrMyJxQRSdq6VGdh+D65/6JuQuHioMs2O1sw==}
+    engines: {node: '>=18.0.0'}
+    hasBin: true
+    dev: true
 
   /emoji-regex@8.0.0:
     resolution: {integrity: sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A==}
