@@ -9,6 +9,36 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.
 
 ### Changed
 
+- The `declaration-colon-newline-after` rule now requires a newline after a colon for multiline declarations.
+
+	```css
+	/* The correct code */
+	a {
+		background:
+			url("foo.png"),
+			url("bar.png");
+	}
+	a {
+		transform:
+			translate(
+				1px,
+				1px
+			);
+	}
+
+	/* The incorrect code */
+	a {
+		background: url("foo.png"),
+			url("bar.png");
+	}
+	a {
+		transform: translate(
+			1px,
+			1px
+		);
+	}
+	```
+
 - The `import-notation` rule now disallows the `url()` function for the `@import` at-rule.
 
 	```css
