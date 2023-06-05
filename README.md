@@ -1,5 +1,6 @@
 # stylelint-config-firefoxic
 
+[![Test Status][test-image]][test-url]
 [![License: MIT][license-image]][license-url]
 [![NPM version][npm-image]][npm-url]
 [![Vulnerabilities count][vulnerabilities-image]][vulnerabilities-url]
@@ -98,6 +99,9 @@ If your styles syntax is different from CSS, then install [the package of the�
 - [Changelog](CHANGELOG.md)
 - [License](LICENSE)
 - [Stylelint documentation](https://stylelint.io)
+
+[test-url]: https://github.com/firefoxic/stylelint-config-firefoxic/actions
+[test-image]: https://github.com/firefoxic/stylelint-config-firefoxic/actions/workflows/test.yml/badge.svg?branch=main
 
 [npm-url]: https://npmjs.org/package/stylelint-config-firefoxic
 [npm-image]: https://badge.fury.io/js/stylelint-config-firefoxic.svg
