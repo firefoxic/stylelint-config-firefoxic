@@ -7,6 +7,18 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.
 
 ## [Unreleased]
 
+### Changed
+
+- The `import-notation` rule now disallows the `url()` function for the `@import` at-rule.
+
+	```css
+	/* The correct code */
+	@import "foo.css";
+
+	/* The incorrect code */
+	@import url("foo.css");
+	```
+
 ## [1.2.3] — 2023–05–22
 
 ### Changed
