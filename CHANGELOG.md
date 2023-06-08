@@ -9,6 +9,23 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.
 
 ### Changed
 
+- The `at-rule-empty-line-before` rule now disallows an empty line between the same-named blockless at-rules.
+
+	```css
+	/* The correct code */
+	@charset "UTF-8";
+
+	@import "a.css";
+	@import "b.css";
+
+	/* The incorrect code */
+	@charset "UTF-8";
+
+	@import "a.css";
+
+	@import "b.css";
+	```
+
 - The `declaration-colon-newline-after` rule now requires a newline after a colon for multiline declarations.
 
 	```css
