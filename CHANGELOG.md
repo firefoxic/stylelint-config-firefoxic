@@ -56,6 +56,20 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.
 	}
 	```
 
+- The `font-family-name-quotes` rule now disallows quotes around the font name if it is a [valid CSS identifier](https://www.w3.org/TR/CSS22/syndata.html#value-def-identifier).
+
+	```css
+	/* The correct code */
+	a {
+		font-family: fira sans, sans-serif;
+	}
+
+	/* The incorrect code */
+	a {
+		font-family: "fira sans", sans-serif;
+	}
+	```
+
 - The `import-notation` rule now disallows the `url()` function for the `@import` at-rule.
 
 	```css
