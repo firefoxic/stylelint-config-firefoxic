@@ -76,7 +76,14 @@
 		"no-invalid-position-at-import-rule": true,
 		"no-irregular-whitespace": true,
 		"number-max-precision": 2,
-		"property-no-unknown": true,
+		"property-no-unknown": [
+			true,
+			{
+				"ignoreAtRules": [
+					"font-feature-values"
+				]
+			}
+		],
 		"property-no-vendor-prefix": true,
 		"rule-empty-line-before": [
 			"always",

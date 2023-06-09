@@ -80,6 +80,29 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.
 	@import url("foo.css");
 	```
 
+- The `property-no-unknown` rule now ignores descriptors in the `@font-feature-values` at-rule.
+
+	```css
+	/* The correct code */
+	@font-feature-values my font {
+		@swash {
+			pretty: 1;
+			cool: 2;
+		}
+	}
+
+	a {
+		--my-property: my-value;
+		color: #000000;
+	}
+
+	/* The incorrect code */
+	a {
+		my-property: my-value;
+		colour: #000000;
+	}
+	```
+
 ## [1.2.3] — 2023–05–22
 
 ### Changed
