@@ -26,6 +26,21 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.
 	@import "b.css";
 	```
 
+- The `block-no-empty` rule now considers blocks containing only comments as empty.
+
+	```css
+	/* The correct code */
+	a {
+		/* comment */
+		gap: 1em;
+	}
+
+	/* The incorrect code */
+	a {
+		/* comment */
+	}
+	```
+
 - The `declaration-colon-newline-after` rule now requires a newline after a colon for multiline declarations.
 
 	```css

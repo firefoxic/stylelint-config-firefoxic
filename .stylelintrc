@@ -18,7 +18,14 @@
 		],
 		"at-rule-no-unknown": true,
 		"at-rule-no-vendor-prefix": true,
-		"block-no-empty": true,
+		"block-no-empty": [
+			true,
+			{
+				"ignore": [
+					"comments"
+				]
+			}
+		],
 		"color-function-notation": "modern",
 		"color-hex-alpha": "never",
 		"color-hex-length": "long",
