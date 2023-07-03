@@ -108,6 +108,23 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.
 	@import url("foo.css");
 	```
 
+- The `number-max-precision` rule now allows values with precision 9 in the `oklch()` and `oklab()` functions, and with precision 3 in all other cases.
+
+	```css
+	/* The correct code */
+	a {
+		gap: 0.123em;
+		color: oklch(69.83% 0.123456789 44);
+		background: oklab(0.74, 0.123456789, 0.123456789);
+	}
+
+	/* The incorrect code */
+	a {
+		gap: 0.1234em;
+		color: oklch(69.83% 0.1234567891 44);
+		background: oklab(0.74, 0.1234567891, 0.1234567891);
+	}
+
 - The `property-no-unknown` rule now ignores descriptors in the `@font-feature-values` at-rule.
 
 	```css
