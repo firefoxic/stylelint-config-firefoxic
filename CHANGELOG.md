@@ -85,6 +85,19 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.
 	}
 	```
 
+- The `font-family-no-duplicate-names` rule now allows duplication of the generic font family keyword `monospace`.
+
+	```css
+	/* The correct code */
+	a {
+		font-family: monospace, monospace;
+	}
+
+	/* The incorrect code */
+	a {
+		font: 1em system-ui, sans-serif, sans-serif;
+	}
+
 - The `import-notation` rule now disallows the `url()` function for the `@import` at-rule.
 
 	```css
