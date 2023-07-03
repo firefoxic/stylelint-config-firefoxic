@@ -123,12 +123,7 @@
 		],
 		"string-no-newline": true,
 		"unit-no-unknown": true,
-		"value-keyword-case": [
-			"lower",
-			{
-				"camelCaseSvgKeywords": true
-			}
-		],
+		"value-keyword-case": "lower",
 		"value-no-vendor-prefix": true,
 
 		"codeguide/at-rule-name-case": "lower",

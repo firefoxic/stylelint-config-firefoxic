@@ -118,6 +118,20 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.
 	}
 	```
 
+- The `value-keyword-case` rule now requires only lower case for all keywords.
+
+	```css
+	/* The correct code */
+	a {
+		color: currentcolor;
+	}
+
+	/* The incorrect code */
+	a {
+		color: currentColor;
+	}
+	```
+
 ## [1.2.3] — 2023–05–22
 
 ### Changed
