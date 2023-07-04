@@ -41,6 +41,18 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.
 	}
 	```
 
+- The `declaration-block-single-line-max-declarations` rule now disallows single-line blocks.
+
+	```css
+	/* The correct code */
+	a {
+		gap: 0;
+	}
+
+	/* The incorrect code */
+	a { gap: 0; }
+	```
+
 - The `declaration-colon-newline-after` rule now requires a newline after a colon for multiline declarations.
 
 	```css
