@@ -110,4 +110,4 @@ If your styles syntax is different from CSS, then install [the package of the�
 [license-image]: https://img.shields.io/badge/License-MIT-limegreen.svg
 
 [vulnerabilities-url]: https://snyk.io/test/github/firefoxic/stylelint-config-firefoxic
-[vulnerabilities-image]: https://img.shields.io/snyk/vulnerabilities/npm/stylelint-config-firefoxic
+[vulnerabilities-image]: https://snyk.io/test/github/firefoxic/stylelint-config-firefoxic/badge.svg
