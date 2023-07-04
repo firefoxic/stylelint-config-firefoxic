@@ -9,6 +9,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.
 
 ### Changed
 
+- This package now requires the `stylelint@^15.9.0` package to be installed, as it has been added as a peer dependency.
 - The `at-rule-empty-line-before` rule now disallows an empty line between the same-named blockless at-rules.
 
 	```css
