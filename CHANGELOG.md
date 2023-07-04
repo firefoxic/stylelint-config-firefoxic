@@ -7,6 +7,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.
 
 ## [Unreleased]
 
+## [2.0.0] — 2023–07–04
+
 ### Changed
 
 - This package now requires the `stylelint@^15.9.0` package to be installed, as it has been added as a peer dependency.
@@ -235,7 +237,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.
 - Basic project configuration
 - Basic config file for Stylelint
 
-[Unreleased]: https://github.com/firefoxic/gulp-stacksvg/compare/v1.2.3...HEAD
+[Unreleased]: https://github.com/firefoxic/gulp-stacksvg/compare/v2.0.0...HEAD
+[2.0.0]: https://github.com/firefoxic/gulp-stacksvg/compare/v1.2.3...v2.0.0
 [1.2.3]: https://github.com/firefoxic/gulp-stacksvg/compare/v1.2.1...v1.2.3
 [1.2.1]: https://github.com/firefoxic/gulp-stacksvg/compare/v1.2.0...v1.2.1
 [1.2.0]: https://github.com/firefoxic/gulp-stacksvg/compare/v1.1.0...v1.2.0
