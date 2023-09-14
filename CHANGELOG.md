@@ -7,6 +7,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.
 
 ## [Unreleased]
 
+## [2.0.1] — 2023–09–14
+
 ## Updated
 
 - `stylelint-codeguide` with a fix for a bug that breaks `stylelint`.
@@ -241,7 +243,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.
 - Basic project configuration
 - Basic config file for Stylelint
 
-[Unreleased]: https://github.com/firefoxic/gulp-stacksvg/compare/v2.0.0...HEAD
+[Unreleased]: https://github.com/firefoxic/gulp-stacksvg/compare/v2.0.1...HEAD
+[2.0.1]: https://github.com/firefoxic/gulp-stacksvg/compare/v2.0.0...v2.0.1
 [2.0.0]: https://github.com/firefoxic/gulp-stacksvg/compare/v1.2.3...v2.0.0
 [1.2.3]: https://github.com/firefoxic/gulp-stacksvg/compare/v1.2.1...v1.2.3
 [1.2.1]: https://github.com/firefoxic/gulp-stacksvg/compare/v1.2.0...v1.2.1
