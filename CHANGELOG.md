@@ -7,6 +7,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.
 
 ## [Unreleased]
 
+## Updated
+
+- `stylelint-codeguide` with a fix for a bug that breaks `stylelint`.
+
 ## [2.0.0] — 2023–07–04
 
 ### Changed
