@@ -7,6 +7,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.
 
 ## [Unreleased]
 
+## [2.0.2] — 2023–10–13
+
+## Updated
+
+- Plugin `stylelint-codeguide`, which fixes a bug with range media queries (and possibly others).
+- Peer dependency — `stylelint@15.10.3`.
+
 ## [2.0.1] — 2023–09–14
 
 ## Updated
@@ -243,7 +250,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.
 - Basic project configuration
 - Basic config file for Stylelint
 
-[Unreleased]: https://github.com/firefoxic/gulp-stacksvg/compare/v2.0.1...HEAD
+[Unreleased]: https://github.com/firefoxic/gulp-stacksvg/compare/v2.0.2...HEAD
+[2.0.2]: https://github.com/firefoxic/gulp-stacksvg/compare/v2.0.1...v2.0.2
 [2.0.1]: https://github.com/firefoxic/gulp-stacksvg/compare/v2.0.0...v2.0.1
 [2.0.0]: https://github.com/firefoxic/gulp-stacksvg/compare/v1.2.3...v2.0.0
 [1.2.3]: https://github.com/firefoxic/gulp-stacksvg/compare/v1.2.1...v1.2.3
