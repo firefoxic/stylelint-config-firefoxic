@@ -1,7 +1,7 @@
 {
 	"name": "stylelint-config-firefoxic",
 	"description": "Stylelint shareable config for the firefoxic code guide",
-	"version": "2.0.2",
+	"version": "2.0.3",
 	"type": "module",
 	"exports": "./.stylelintrc",
 	"dependencies": {
