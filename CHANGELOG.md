@@ -7,6 +7,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.
 
 ## [Unreleased]
 
+## [2.0.3] — 2023–10–19
+
+### Updated
+
+- Stylelint to `^15.11.0`.
+- Node.js to `>=18.16`.
+
 ## [2.0.2] — 2023–10–13
 
 ## Updated
@@ -250,7 +257,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.
 - Basic project configuration
 - Basic config file for Stylelint
 
-[Unreleased]: https://github.com/firefoxic/gulp-stacksvg/compare/v2.0.2...HEAD
+[Unreleased]: https://github.com/firefoxic/gulp-stacksvg/compare/v2.0.3...HEAD
+[2.0.3]: https://github.com/firefoxic/gulp-stacksvg/compare/v2.0.2...v2.0.3
 [2.0.2]: https://github.com/firefoxic/gulp-stacksvg/compare/v2.0.1...v2.0.2
 [2.0.1]: https://github.com/firefoxic/gulp-stacksvg/compare/v2.0.0...v2.0.1
 [2.0.0]: https://github.com/firefoxic/gulp-stacksvg/compare/v1.2.3...v2.0.0
