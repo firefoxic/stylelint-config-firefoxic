@@ -41,7 +41,7 @@
 		"lint:spaces": "ec",
 		"lint:scripts": "eslint .",
 		"lint": "pnpm /^lint:/",
-		"pretest": "pnpm --silent lint",
+		"pretest": "pnpm lint",
 		"test": "node --test",
 		"preversion": "pnpm test",
 		"postversion": "pnpm publish",
