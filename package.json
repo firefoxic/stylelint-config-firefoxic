@@ -5,10 +5,10 @@
 	"type": "module",
 	"exports": "./.stylelintrc",
 	"dependencies": {
-		"stylelint-codeguide": "^0.3.1"
+		"stylelint-codeguide": "^0.3.2"
 	},
 	"peerDependencies": {
-		"stylelint": "^15.10.3"
+		"stylelint": "^15.11.0"
 	},
 	"files": [
 		"./.stylelintrc"
@@ -51,6 +51,6 @@
 		"editorconfig-checker": "^5.1.1",
 		"eslint": "^8.51.0",
 		"husky": "^8.0.3",
-		"stylelint": "^15.10.3"
+		"stylelint": "^15.11.0"
 	}
 }
