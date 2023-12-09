@@ -1,8 +1,10 @@
 import test from "node:test"
 import assert from "node:assert/strict"
 import { readFile } from "node:fs/promises"
+// import { join } from "../.stylelintrc"
 
 import stylelint from "stylelint"
+import path from "node:path"
 
 /**
  * Test the specified rule with its configuration from the `.stylelintrc` file.
@@ -16,19 +18,21 @@ import stylelint from "stylelint"
  * @returns {Promise} A promise that resolves when the test is complete.
  */
 export async function testRule ({ description, rule, plugin, code, expectedWarnings }) {
-	let ruleName = `${plugin?.prefix ? plugin.prefix : ``}${rule}`
-	let config = rule ? {
-		plugins: plugin?.name ? [plugin.name] : undefined,
+	let ruleName = `${plugin?.prefix || ``}${rule}`
+	let config = rule && {
+		plugins: plugin?.name && [plugin.name],
 		rules: {
 			[ruleName]: await getRuleConfig(ruleName),
 		},
-	} : undefined
+	}
 
 	test(description, async () => {
-		let warnings = await stylelint.lint({ code, config }).then((r) => r.results[0].warnings)
+		let { results: [{ warnings }] } = await stylelint.lint({ code, config })
 		assert.deepEqual(warnings, expectedWarnings)
 	})
 }
+
+console.log(path.resolve(`./.stylelintrc`)) // eslint-disable-line
 
 /**
  * Get the rule config from the `.stylelintrc` file.
@@ -37,6 +41,6 @@ export async function testRule ({ description, rule, plugin, code, expectedWarni
  * @returns {any} The config of the specified rule.
  */
 async function getRuleConfig (ruleName) {
-	let configObject = JSON.parse(await readFile(`./.stylelintrc`, { encoding: `utf8` }))
+	let configObject = JSON.parse(await readFile(path.resolve(`./.stylelintrc`), { encoding: `utf8` }))
 	return configObject.rules[ruleName]
 }
