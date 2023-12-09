@@ -5,16 +5,16 @@
 	"type": "module",
 	"exports": "./.stylelintrc",
 	"dependencies": {
-		"stylelint-codeguide": "^0.3.2"
+		"stylelint-codeguide": "^1.0.0"
 	},
 	"peerDependencies": {
-		"stylelint": "^15.11.0"
+		"stylelint": "^16.0.1"
 	},
 	"files": [
 		"./.stylelintrc"
 	],
 	"engines": {
-		"node": ">=18.16"
+		"node": "^18.12 || >=20.9"
 	},
 	"license": "MIT",
 	"author": {
@@ -51,6 +51,6 @@
 		"editorconfig-checker": "^5.1.2",
 		"eslint": "^8.55.0",
 		"husky": "^8.0.3",
-		"stylelint": "^15.11.0"
+		"stylelint": "^16.0.1"
 	}
 }

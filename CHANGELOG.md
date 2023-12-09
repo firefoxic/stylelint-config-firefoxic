@@ -7,6 +7,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.
 
 ## [Unreleased]
 
+### Updated
+
+- Stylelint to `^16.0.1`.
+- Node.js to `^18.12 || >=20.9`.
+
 ## [2.0.3] — 2023–10–19
 
 ### Updated
@@ -16,14 +21,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.
 
 ## [2.0.2] — 2023–10–13
 
-## Updated
+### Updated
 
 - Plugin `stylelint-codeguide`, which fixes a bug with range media queries (and possibly others).
 - Peer dependency — `stylelint@15.10.3`.
 
 ## [2.0.1] — 2023–09–14
 
-## Updated
+### Updated
 
 - `stylelint-codeguide` with a fix for a bug that breaks `stylelint`.
 
