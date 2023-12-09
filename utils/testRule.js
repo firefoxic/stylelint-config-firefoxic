@@ -1,10 +1,8 @@
 import test from "node:test"
 import assert from "node:assert/strict"
 import { readFile } from "node:fs/promises"
-// import { join } from "../.stylelintrc"
 
 import stylelint from "stylelint"
-import path from "node:path"
 
 /**
  * Test the specified rule with its configuration from the `.stylelintrc` file.
@@ -32,8 +30,6 @@ export async function testRule ({ description, rule, plugin, code, expectedWarni
 	})
 }
 
-console.log(path.resolve(`./.stylelintrc`)) // eslint-disable-line
-
 /**
  * Get the rule config from the `.stylelintrc` file.
  *
@@ -41,6 +37,8 @@ console.log(path.resolve(`./.stylelintrc`)) // eslint-disable-line
  * @returns {any} The config of the specified rule.
  */
 async function getRuleConfig (ruleName) {
-	let configObject = JSON.parse(await readFile(path.resolve(`./.stylelintrc`), { encoding: `utf8` }))
+	let pathToConfig = new URL(`../.stylelintrc`, import.meta.url)
+	// let configObject = JSON.parse(await readFile(`./.stylelintrc`, { encoding: `utf8` }))
+	let configObject = JSON.parse(await readFile(pathToConfig, { encoding: `utf8` }))
 	return configObject.rules[ruleName]
 }
