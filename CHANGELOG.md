@@ -12,6 +12,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.
 - Stylelint to `^16.0.1`.
 - Node.js to `^18.12 || >=20.9`.
 
+### Added
+
+- Basic support scss syntax.
+
 ## [2.0.3] — 2023–10–19
 
 ### Updated

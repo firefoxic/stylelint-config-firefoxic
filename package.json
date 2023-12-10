@@ -5,6 +5,7 @@
 	"type": "module",
 	"exports": "./.stylelintrc",
 	"dependencies": {
+		"postcss-scss": "^4.0.9",
 		"stylelint-codeguide": "^1.0.0"
 	},
 	"peerDependencies": {

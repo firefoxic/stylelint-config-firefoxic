@@ -1,4 +1,44 @@
 {
+	"overrides": [
+		{
+			"customSyntax": "postcss-scss",
+			"files": [
+				"**/*.scss"
+			],
+			"rules": {
+				"declaration-property-value-no-unknown": null,
+				"media-query-no-invalid": null,
+				"at-rule-no-unknown": [
+					true,
+					{
+						"ignoreAtRules": [
+							"content",
+							"debug",
+							"each",
+							"else",
+							"for",
+							"forward",
+							"if",
+							"include",
+							"mixin",
+							"use",
+							"warn",
+							"while"
+						]
+					}
+				],
+				"function-no-unknown": [
+					true,
+					{
+						"ignoreFunctions": [
+							"/^get/",
+							"if"
+						]
+					}
+				]
+			}
+		}
+	],
 	"plugins": [
 		"stylelint-codeguide"
 	],
@@ -82,6 +122,7 @@
 		],
 		"media-feature-name-no-unknown": true,
 		"media-feature-name-no-vendor-prefix": true,
+		"media-query-no-invalid": true,
 		"named-grid-areas-no-invalid": true,
 		"no-descending-specificity": true,
 		"no-duplicate-at-import-rules": true,
@@ -140,7 +181,6 @@
 		"unit-no-unknown": true,
 		"value-keyword-case": "lower",
 		"value-no-vendor-prefix": true,
-
 		"codeguide/at-rule-name-case": "lower",
 		"codeguide/at-rule-name-space-after": "always",
 		"codeguide/at-rule-semicolon-newline-after": "always",
