@@ -7,6 +7,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.
 
 ## [Unreleased]
 
+### Updated
+
+- Dependencies that fixes an error.
+
 ## [3.0.0] — 2023–12–10
 
 ### Updated

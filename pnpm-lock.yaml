@@ -9,8 +9,8 @@ dependencies:
     specifier: ^4.0.9
     version: 4.0.9(postcss@8.4.32)
   stylelint-codeguide:
-    specifier: ^1.0.0
-    version: 1.0.0(stylelint@16.0.1)
+    specifier: ^1.0.1
+    version: 1.0.1(stylelint@16.0.1)
 
 devDependencies:
   editorconfig-checker:
@@ -996,8 +996,8 @@ packages:
     resolution: {integrity: sha512-Dj1Okke1C3uKKwQcetra4jSuk0DqbzbYtXipzFlFMZtowbF1x7BKJwB9AayVMyFARvU8EDrZdcax4At/452cAg==}
     dev: false
 
-  /stylelint-codeguide@1.0.0(stylelint@16.0.1):
-    resolution: {integrity: sha512-Cs4ke4TnrFUaaHxuNynENReUJQiV1iseGd4G5AYPqCh4Hus/39juV9ofrBa3RSMW7gFnGeKzhmIi4jJi9OScxg==}
+  /stylelint-codeguide@1.0.1(stylelint@16.0.1):
+    resolution: {integrity: sha512-d3vL0UV4FmFwS8hnu8MIFZwiKqxDgQ6XR7sf3LQQV9UZLCQFadyHySp64LmPPrIgtWalehKQODBcyGOd+jQyGA==}
     engines: {node: ^18.12 || ^20.9}
     peerDependencies:
       stylelint: ^16.0.1
