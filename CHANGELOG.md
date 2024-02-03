@@ -7,6 +7,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.
 
 ## [Unreleased]
 
+### Changed
+
+- Replaced `stylelint-codeguide` with `@stylistic/stylelint-plugin`. The stylistic rules must now be prefixed with `@stylistic/`.
+
+## [3.0.1] — 2023–12–10
+
 ### Updated
 
 - Dependencies that fixes an error.

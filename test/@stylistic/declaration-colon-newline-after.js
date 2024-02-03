@@ -1,11 +1,11 @@
 import { testRule } from "../../utils/testRule.js"
 
-let rule = `declaration-colon-newline-after`
-
 let plugin = {
-	name: `stylelint-codeguide`,
-	prefix: `codeguide/`,
+	name: `@stylistic/stylelint-plugin`,
+	prefix: `@stylistic/`,
 }
+
+let rule = `${plugin.prefix}declaration-colon-newline-after`
 
 let code = `
 .valid {
@@ -41,7 +41,7 @@ testRule({
 			endLine: 14,
 			endColumn: 13,
 			rule,
-			severity: undefined,
+			severity: `error`,
 			text: `Expected newline after ":" with a multi-line declaration (${rule})`,
 		},
 		{
@@ -50,7 +50,7 @@ testRule({
 			endLine: 16,
 			endColumn: 12,
 			rule,
-			severity: undefined,
+			severity: `error`,
 			text: `Expected newline after ":" with a multi-line declaration (${rule})`,
 		},
 	],

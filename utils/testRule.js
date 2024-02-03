@@ -1,4 +1,4 @@
-import test from "node:test"
+import { describe, it } from "node:test"
 import assert from "node:assert/strict"
 import { readFile } from "node:fs/promises"
 
@@ -16,27 +16,28 @@ import stylelint from "stylelint"
  * @returns {Promise} A promise that resolves when the test is complete.
  */
 export async function testRule ({ description, rule, plugin, code, expectedWarnings }) {
-	let ruleName = `${plugin?.prefix ? plugin.prefix : ``}${rule}`
 	let config = rule ? {
-		plugins: plugin?.name ? [plugin.name] : undefined,
+		plugins: plugin?.name,
 		rules: {
-			[ruleName]: await getRuleConfig(ruleName),
+			[rule]: await getRuleConfig(rule),
 		},
 	} : undefined
 
-	test(description, async () => {
-		let warnings = await stylelint.lint({ code, config }).then((r) => r.results[0].warnings)
-		assert.deepEqual(warnings, expectedWarnings)
+	describe(rule, () => {
+		it(description, async () => {
+			let warnings = await stylelint.lint({ code, config }).then((r) => r.results[0].warnings)
+			assert.deepEqual(warnings, expectedWarnings)
+		})
 	})
 }
 
 /**
  * Get the rule config from the `.stylelintrc` file.
  *
- * @param {string} ruleName - The name of the rule.
+ * @param {string} rule - The name of the rule.
  * @returns {any} The config of the specified rule.
  */
-async function getRuleConfig (ruleName) {
+async function getRuleConfig (rule) {
 	let configObject = JSON.parse(await readFile(`./.stylelintrc`, { encoding: `utf8` }))
-	return configObject.rules[ruleName]
+	return configObject.rules[rule]
 }

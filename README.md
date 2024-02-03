@@ -14,7 +14,7 @@ To see the rules that this config uses, please read the [config itself](./.st
 ## Installation
 
 ```shell
-npm i -D stylelint-config-firefoxic
+npm add -D stylelint-config-firefoxic
 ```
 
 ## Usage
@@ -24,14 +24,6 @@ Set your `stylelint` config to:
 ```json
 {
 	"extends": "stylelint-config-firefoxic"
-}
-```
-
-Or specify an absolute path when installing the package globally.
-
-```json
-{
-	"extends": "/absolute/path/to/stylelint-config-firefoxic"
 }
 ```
 
@@ -85,14 +77,6 @@ If your styles syntax is different from CSS, then install [the package of the�
 	}
 }
 ```
-
-## Usage in VSCode
-
-1. Install [stylelint](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint) plugin for VSCode
-2. Install stylelint:
-	- globally — `npm i -g stylelint`
-	- or locally in your project — `npm i -D stylelint`
-3. Inconsistencies with `stylelint-config-firefoxic` rules will be underlined with a red wavy line.
 
 ## Useful links
 
